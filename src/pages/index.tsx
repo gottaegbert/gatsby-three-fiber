@@ -4,7 +4,7 @@ import img1 from "../assets/images/test-1.jpg";
 import img2 from "../assets/images/test-2.jpg";
 import img3 from "../assets/images/test-3.jpg";
 
-import Three from "../components/Three/Keybubbles";
+import Three from "../components/Three/Transformcontrol";
 import cn from "classnames";
 import Layout from "../components/Layout/Layout";
 import { StoreProvider } from "../components/StoreProvider/StoreProvider";
