@@ -24,7 +24,7 @@ function Cube(props) {
   return (
     <mesh castShadow ref={ref}>
       <boxGeometry />
-      <meshStandardMaterial color="orange" />
+      <meshStandardMaterial color="lightgreen" />
     </mesh>
   )
 }
@@ -37,6 +37,7 @@ export default function App() {
   }, [])
   return (
     <Canvas dpr={[1, 2]} shadows camera={{ position: [-5, 5, 5], fov: 50 }}>
+
       <ambientLight />
       <spotLight angle={0.25} penumbra={0.5} position={[10, 10, 5]} castShadow />
       <Physics>
